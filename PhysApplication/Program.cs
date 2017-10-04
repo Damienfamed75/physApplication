@@ -12,14 +12,8 @@ namespace PhysApplication
         public static MainMenuCalc mainMenu = new MainMenuCalc();
         public static void Main(string[] args)
         {
-            Initialize();
             mainMenu.CreateMenu();
             mainMenu.MenuNav();
-            
-            //Menu.MainMenuCalc.MenuNav();
-        }
-        public static void Initialize() {
-
         }
     }
 }

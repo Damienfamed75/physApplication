@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysApplication.Menu {
+namespace PhysApplication.Objects {
     public struct menuObject {
         public string Name;
         public bool Marked;

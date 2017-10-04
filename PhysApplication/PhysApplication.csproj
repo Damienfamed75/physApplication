@@ -46,8 +46,14 @@
   <ItemGroup>
     <Compile Include="Menu\KnownValueCalc.cs" />
     <Compile Include="Menu\MainMenuCalc.cs" />
-    <Compile Include="Menu\MenuList.cs" />
-    <Compile Include="Menu\menuObject.cs" />
+    <Compile Include="Variables\ElectricAndMagnetism.cs" />
+    <Compile Include="Variables\FluidMechanicsAndThermalPhysics.cs" />
+    <Compile Include="Variables\GeometryAndTrigonometry.cs" />
+    <Compile Include="Objects\MenuList.cs" />
+    <Compile Include="Objects\menuObject.cs" />
+    <Compile Include="Variables\Mechanics.cs" />
+    <Compile Include="Variables\ModernPhysics.cs" />
+    <Compile Include="Variables\WavesAndOptics.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

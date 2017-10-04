@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PhysApplication.Objects;
 
 namespace PhysApplication.Menu {
     public class MainMenuCalc {
-        public static MenuList menuItems = new MenuList(new string[] { "new item" }); // passes null for the parameter when instantiating class as an object
+        public static MenuList menuItems = new MenuList(null); // passes null for the parameter when instantiating class as an object
         public static List<menuObject> menuCategories = menuItems.categories;
         public void CreateMenu() {  // TODO Think about splitting to new file
             Console.Clear();
@@ -32,11 +33,8 @@ namespace PhysApplication.Menu {
             }
             if (j == 0 && upMove) menuCategories[menuCategories.Count() - 1] = new menuObject(menuCategories[menuCategories.Count() - 1].Name, true);
             else if (j == menuCategories.Count - 1 && !upMove) menuCategories[0] = new menuObject(menuCategories[0].Name, true);
-            else if (upMove) menuCategories[j - 1] = new menuObject(menuCategories[j - 1].Name, true);
+            else if (upMove)  menuCategories[j - 1] = new menuObject(menuCategories[j - 1].Name, true);
             else if (!upMove) menuCategories[j + 1] = new menuObject(menuCategories[j + 1].Name, true);
-        }
-        private void DownMove() {
-
         }
         private void EnterPress() {
 

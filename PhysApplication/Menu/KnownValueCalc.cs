@@ -3,21 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PhysApplication.Objects;
 
 namespace PhysApplication.Menu
 {
     class KnownValueCalc
     {
-        public static IEnumerable<menuObject> GetKnownValues()
+        public void CreateMenu()
         {
-            try
-            {
+            Console.Clear();
 
-            } catch (Exception e)
-            {
-                throw new Exception("not yet implemented {0}", e);
-            }
-            yield return new menuObject() { Name = "blah", Marked =  false };
         }
     }
 }
