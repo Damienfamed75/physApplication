@@ -30,8 +30,10 @@ namespace PhysApplication.Menu {
                     menuCategories[i] = new menuObject(menuCategories[i].Name, false);
                 }
             }
-            if (j == 0) menuCategories[menuCategories.Count()-1] = new menuObject(menuCategories[menuCategories.Count()-1].Name, true);
-            else menuCategories[j - 1] = new menuObject(menuCategories[j - 1].Name, true);
+            if (j == 0 && upMove) menuCategories[menuCategories.Count() - 1] = new menuObject(menuCategories[menuCategories.Count() - 1].Name, true);
+            else if (j == menuCategories.Count - 1 && !upMove) menuCategories[0] = new menuObject(menuCategories[0].Name, true);
+            else if (upMove) menuCategories[j - 1] = new menuObject(menuCategories[j - 1].Name, true);
+            else if (!upMove) menuCategories[j + 1] = new menuObject(menuCategories[j + 1].Name, true);
         }
         private void DownMove() {
 
