@@ -4,11 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysApplication.Menu
-{
-    public class menuObject
-    {
-        public string Name { get; set; }
-        public bool Marked { get; set; }
+namespace PhysApplication.Menu {
+    public struct menuObject {
+        public string Name;
+        public bool Marked;
+        public menuObject(string n, bool m) {
+            Name = n;
+            Marked = m;
+        }
     }
 }

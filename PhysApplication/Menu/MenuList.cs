@@ -4,25 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PhysApplication.Menu
-{
-    /*
-    public struct ListMenu {
-        public List<string> categories = new List<string>();
-        public int a;
-        public ListMenu(int i) {
-            a = i;
-        }
-    }*/
+namespace PhysApplication.Menu {
     public class MenuList {
-        public List<string> categories = new List<string>();
+        public List<menuObject> categories = new List<menuObject>();
         private bool val = true;
-        public MenuList(string[] args = ["absolutelynothing"]) {
+        public MenuList(string[] args) {
             if (args == null) val = false;
-            if (val) foreach (string n in args) categories.Add(n);
-            categories.Add("velocity");
-            categories.Add("time");
-            categories.Add("distance");
+            categories.Add(new menuObject("velocity", true));
+            categories.Add(new menuObject("time", false));
+            categories.Add(new menuObject("distance", false));
+            if (val) foreach (string n in args) categories.Add(new menuObject(n, false));
         }
     }
 }

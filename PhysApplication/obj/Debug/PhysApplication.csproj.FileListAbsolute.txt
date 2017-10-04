@@ -1,1 +1,8 @@
 c:\users\damie\documents\visual studio 2015\Projects\PhysApplication_\PhysApplication\bin\Debug\PhysApplication.exe.config
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.csprojResolveAssemblyReference.cache
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.csproj.CoreCompileInputs.cache
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.exe.config
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.exe
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.pdb
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.exe
+C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.pdb
