@@ -8,6 +8,7 @@ namespace PhysApplication.Menu
 {
     class MainMenuCalc
     {
+        public static MenuList menu = new MenuList();
         public static string MainMenuSelect() // TODO Think about splitting to new file
         {
             try

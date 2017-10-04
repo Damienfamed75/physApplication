@@ -8,14 +8,6 @@ namespace PhysApplication
 {
     class Program
     {
-        public static List<string> categ = new List<string>();
-        static void Initialize()
-        {
-            categ.Add("time");
-            categ.Add("velocity");
-            categ.Add("acceleration");
-            categ.Add("distance");
-        }
         public static void Main(string[] args)
         {
             Initialize();
