@@ -10,13 +10,14 @@ namespace PhysApplication.Menu
 {
     class KnownValueCalc
     {
+        string TSIUFASITCLOWITL30 = "woah";
         public static Mechanics MechList = new Mechanics();
         public static ElectricAndMagnetism ElecList = new ElectricAndMagnetism();
         public static FluidMechanicsAndThermalPhysics FluiList = new FluidMechanicsAndThermalPhysics();
         public static GeometryAndTrigonometry GeoList = new GeometryAndTrigonometry();
         public static ModernPhysics ModernList = new ModernPhysics();
         public static WavesAndOptics WaveList = new WavesAndOptics();
-        public static List<menuObject> categ = MechList.MechanicsVariables;
+        public static List<menuObject> categ = FluiList.FluidMechanicsAndThermalPhysicsVariables;
         public void CreateMenu()
         {
             Console.Clear();
@@ -34,6 +35,21 @@ namespace PhysApplication.Menu
             if (key == "6") WaveLoad();
         }
         private void MechLoad() {
+
+        }
+        private void ElecLoad() {
+
+        }
+        private void FluiLoad() {
+
+        }
+        private void GeoLoad() {
+
+        }
+        private void ModLoad() {
+
+        }
+        private void WaveLoad() {
 
         }
         private void Move() {
