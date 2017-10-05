@@ -10,10 +10,12 @@ namespace PhysApplication
     class Program
     {
         public static MainMenuCalc mainMenu = new MainMenuCalc();
+        public static KnownValueCalc valMenu = new KnownValueCalc();
         public static void Main(string[] args)
         {
             mainMenu.CreateMenu();
             mainMenu.MenuNav();
+            valMenu.CreateMenu();
         }
     }
 }

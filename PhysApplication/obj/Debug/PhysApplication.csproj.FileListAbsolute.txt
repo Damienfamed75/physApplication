@@ -6,3 +6,10 @@ C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\bin\Deb
 C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.pdb
 C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.exe
 C:\Users\damie\OneDrive\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.pdb
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.exe.config
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.exe
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\bin\Debug\PhysApplication.pdb
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.csprojResolveAssemblyReference.cache
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.csproj.CoreCompileInputs.cache
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.exe
+C:\Users\damie\Documents\GitHub\physApplication\PhysApplication\obj\Debug\PhysApplication.pdb
