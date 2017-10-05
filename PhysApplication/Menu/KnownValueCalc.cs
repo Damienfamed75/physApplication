@@ -58,6 +58,7 @@ namespace PhysApplication.Menu
             else if (j == categ.Count - 1 && !upMove) categ[0] = new variableMenuObject(categ[0].Name, true, categ[0].Checked);
             else if (upMove) categ[j - 1] = new variableMenuObject(categ[j - 1].Name, true, categ[j - 1].Checked);
             else if (!upMove) categ[j + 1] = new variableMenuObject(categ[j + 1].Name, true, categ[j + 1].Checked);
+            else throw new ArgumentException("invalid value for bool upMove");
         }
         public void MenuNav() {
             string key = null;
