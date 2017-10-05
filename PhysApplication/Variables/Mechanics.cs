@@ -7,37 +7,37 @@ using PhysApplication.Objects;
 
 namespace PhysApplication.Variables {
     class Mechanics {
-        public List<menuObject> MechanicsVariables = new List<menuObject>();
+        public List<variableMenuObject> MechanicsVariables = new List<variableMenuObject>();
         public Mechanics() {
-            MechanicsVariables.Add(new menuObject("acceleration ------------ (a)", true));
-            MechanicsVariables.Add(new menuObject("amplitude --------------- (A)", false));
-            MechanicsVariables.Add(new menuObject("distance ---------------- (d)", false));
-            MechanicsVariables.Add(new menuObject("energy ------------------ (E)", false));
-            MechanicsVariables.Add(new menuObject("frequency --------------- (f)", false));
-            MechanicsVariables.Add(new menuObject("force ------------------- (F)", false));
-            MechanicsVariables.Add(new menuObject("rotational inertia ------ (I)", false));
-            MechanicsVariables.Add(new menuObject("kinetic energy ---------- (K)", false));
-            MechanicsVariables.Add(new menuObject("spring constant --------- (k)", false));
-            MechanicsVariables.Add(new menuObject("angular momentum -------- (L)", false));
-            MechanicsVariables.Add(new menuObject("length ------------------ (l)", false));
-            MechanicsVariables.Add(new menuObject("mass -------------------- (m)", false));
-            MechanicsVariables.Add(new menuObject("power ------------------- (P)", false));
-            MechanicsVariables.Add(new menuObject("momentum ---------------- (p)", false));
-            MechanicsVariables.Add(new menuObject("radius ------------------ (r)", false));
-            MechanicsVariables.Add(new menuObject("period ------------------ (T)", false));
-            MechanicsVariables.Add(new menuObject("time -------------------- (t)", false));
-            MechanicsVariables.Add(new menuObject("potential energy -------- (U)", false));
-            MechanicsVariables.Add(new menuObject("volume ------------------ (V)", false));
-            MechanicsVariables.Add(new menuObject("speed ------------------- (v)", false));
-            MechanicsVariables.Add(new menuObject("work -------------------- (W)", false));
-            MechanicsVariables.Add(new menuObject("position ---------------- (x)", false));
-            MechanicsVariables.Add(new menuObject("height ------------------ (y)", false));
-            MechanicsVariables.Add(new menuObject("angular acceleration ---- (α)", false));
-            MechanicsVariables.Add(new menuObject("coefficient of friction - (μ)", false));
-            MechanicsVariables.Add(new menuObject("angle ------------------- (θ)", false));
-            MechanicsVariables.Add(new menuObject("density ----------------- (ρ)", false));
-            MechanicsVariables.Add(new menuObject("torque ------------------ (τ)", false));
-            MechanicsVariables.Add(new menuObject("angular speed ----------- (ω)", false));
+            MechanicsVariables.Add(new variableMenuObject("acceleration ------------ (a)", true, false));
+            MechanicsVariables.Add(new variableMenuObject("amplitude --------------- (A)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("distance ---------------- (d)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("energy ------------------ (E)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("frequency --------------- (f)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("force ------------------- (F)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("rotational inertia ------ (I)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("kinetic energy ---------- (K)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("spring constant --------- (k)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("angular momentum -------- (L)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("length ------------------ (l)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("mass -------------------- (m)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("power ------------------- (P)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("momentum ---------------- (p)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("radius ------------------ (r)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("period ------------------ (T)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("time -------------------- (t)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("potential energy -------- (U)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("volume ------------------ (V)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("speed ------------------- (v)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("work -------------------- (W)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("position ---------------- (x)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("height ------------------ (y)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("angular acceleration ---- (α)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("coefficient of friction - (μ)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("angle ------------------- (θ)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("density ----------------- (ρ)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("torque ------------------ (τ)", false, false));
+            MechanicsVariables.Add(new variableMenuObject("angular speed ----------- (ω)", false, false));
         }
     }
 }
