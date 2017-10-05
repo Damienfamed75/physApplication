@@ -7,29 +7,29 @@ using PhysApplication.Objects;
 
 namespace PhysApplication.Variables {
     class ElectricAndMagnetism {
-        public List<menuObject> ElectricAndMagnetismVariables = new List<menuObject>();
+        public List<variableMenuObject> ElectricAndMagnetismVariables = new List<variableMenuObject>();
         public ElectricAndMagnetism() {
-            ElectricAndMagnetismVariables.Add(new menuObject("area --------------- (A)", true));
-            ElectricAndMagnetismVariables.Add(new menuObject("magnetic field ----- (B)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("capacitance -------- (C)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("distance ----------- (d)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("electric field ----- (E)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("emf ---------------- (ε)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("force -------------- (F)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("current ------------ (I)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("length ------------- (l)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("power -------------- (P)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("charge ------------- (Q)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("point charge ------- (q)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("resistence --------- (R)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("time --------------- (t)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("potential energy --- (U)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("electric potential - (V)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("speed -------------- (v)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("dielectic constant - (κ)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("resistivity -------- (ρ)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("angle -------------- (θ)", false));
-            ElectricAndMagnetismVariables.Add(new menuObject("flux --------------- (Φ)", false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("area --------------- (A)", true, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("magnetic field ----- (B)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("capacitance -------- (C)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("distance ----------- (d)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("electric field ----- (E)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("emf ---------------- (ε)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("force -------------- (F)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("current ------------ (I)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("length ------------- (l)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("power -------------- (P)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("charge ------------- (Q)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("point charge ------- (q)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("resistence --------- (R)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("time --------------- (t)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("potential energy --- (U)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("electric potential - (V)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("speed -------------- (v)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("dielectic constant - (κ)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("resistivity -------- (ρ)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("angle -------------- (θ)", false, false));
+            ElectricAndMagnetismVariables.Add(new variableMenuObject("flux --------------- (Φ)", false, false));
         }
     }
 }

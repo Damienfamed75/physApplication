@@ -7,15 +7,15 @@ using PhysApplication.Objects;
 
 namespace PhysApplication.Variables {
     class ModernPhysics {
-        public List<menuObject> ModernPhysicsVariables = new List<menuObject>();
+        public List<variableMenuObject> ModernPhysicsVariables = new List<variableMenuObject>();
         public ModernPhysics() {
-            ModernPhysicsVariables.Add(new menuObject("energy --------- (E)", true));
-            ModernPhysicsVariables.Add(new menuObject("frequency ------ (f)", false));
-            ModernPhysicsVariables.Add(new menuObject("kinetic energy - (K)", false));
-            ModernPhysicsVariables.Add(new menuObject("mass ----------- (m)", false));
-            ModernPhysicsVariables.Add(new menuObject("momentum ------- (p)", false));
-            ModernPhysicsVariables.Add(new menuObject("wavelength ----- (λ)", false));
-            ModernPhysicsVariables.Add(new menuObject("work function -- (φ)", false));
+            ModernPhysicsVariables.Add(new variableMenuObject("energy --------- (E)", true, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("frequency ------ (f)", false, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("kinetic energy - (K)", false, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("mass ----------- (m)", false, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("momentum ------- (p)", false, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("wavelength ----- (λ)", false, false));
+            ModernPhysicsVariables.Add(new variableMenuObject("work function -- (φ)", false, false));
         }
     }
 }

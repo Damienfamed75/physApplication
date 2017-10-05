@@ -7,19 +7,19 @@ using PhysApplication.Objects;
 
 namespace PhysApplication.Variables {
     class WavesAndOptics {
-        public List<menuObject> WavesAndOpticsVariables = new List<menuObject>();
+        public List<variableMenuObject> WavesAndOpticsVariables = new List<variableMenuObject>();
         public WavesAndOptics() {
-            WavesAndOpticsVariables.Add(new menuObject("separation ---------------- (d)", true));
-            WavesAndOpticsVariables.Add(new menuObject("frequency or focal length - (f)", false));
-            WavesAndOpticsVariables.Add(new menuObject("height -------------------- (h)", false));
-            WavesAndOpticsVariables.Add(new menuObject("distance ------------------ (L)", false));
-            WavesAndOpticsVariables.Add(new menuObject("magnification ------------- (M)", false));
-            WavesAndOpticsVariables.Add(new menuObject("an integer ---------------- (m)", false));
-            WavesAndOpticsVariables.Add(new menuObject("index of refraction ------- (n)", false));
-            WavesAndOpticsVariables.Add(new menuObject("distance ------------------ (s)", false));
-            WavesAndOpticsVariables.Add(new menuObject("speed --------------------- (v)", false));
-            WavesAndOpticsVariables.Add(new menuObject("wavelength ---------------- (λ)", false));
-            WavesAndOpticsVariables.Add(new menuObject("angle --------------------- (θ)", false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("separation ---------------- (d)", true, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("frequency or focal length - (f)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("height -------------------- (h)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("distance ------------------ (L)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("magnification ------------- (M)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("an integer ---------------- (m)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("index of refraction ------- (n)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("distance ------------------ (s)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("speed --------------------- (v)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("wavelength ---------------- (λ)", false, false));
+            WavesAndOpticsVariables.Add(new variableMenuObject("angle --------------------- (θ)", false, false));
         }
     }
 }
