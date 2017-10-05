@@ -6,7 +6,9 @@ using PhysApplication.Objects;
 namespace PhysApplication.Menu {
     public class MainMenuCalc {
         public static MenuList menuItems = new MenuList(null); // passes null for the parameter when instantiating class as an object
-        public static List<menuObject> menuCategories = menuItems.categories;
+        public static List<menuObject> menuCategories = menuItems.categories; // Sets variables as the list inside menuItems
+        static KnownValueCalc valMenu = new KnownValueCalc(); // Instantiates new value menu
+        public static bool endMainMenu = false;
         public void CreateMenu() {  // TODO Think about splitting to new file
             Console.Clear();
             double b = 1.4661;
@@ -20,7 +22,7 @@ namespace PhysApplication.Menu {
             if (key == null) return;
             if (key.ToUpper() == "UPARROW") Move(true);
             if (key.ToUpper() == "DOWNARROW") Move(false);
-            if (key.ToUpper() == "ENTER") EnterPress();
+            //if (key.ToUpper() == "ENTER") EnterPress();
         }
         private void Move(bool upMove) {
             int j = 1;
@@ -36,14 +38,17 @@ namespace PhysApplication.Menu {
             else if (!upMove) menuCategories[j + 1] = new menuObject(menuCategories[j + 1].Name, true);
         }
         private void EnterPress() {
-
+            //endMainMenu = true;
+            //valMenu.CreateMenu();
         }
         public void MenuNav() {
             string key = null;
             do {
                 KeyAnalyze(key = Console.ReadKey().Key.ToString());
                 CreateMenu();
-            } while (key.ToUpper() != "ESCAPE");
+            } while (key.ToUpper() != "ENTER");
+            valMenu.CreateMenu();
+            Console.ReadKey();
         }
     }
 }
