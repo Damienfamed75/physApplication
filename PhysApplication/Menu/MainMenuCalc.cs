@@ -22,7 +22,7 @@ namespace PhysApplication.Menu {
             if (key == null) return;
             if (key.ToUpper() == "UPARROW") Move(true);
             if (key.ToUpper() == "DOWNARROW") Move(false);
-            //if (key.ToUpper() == "ENTER") EnterPress();
+            if (key.ToUpper() == "ESCAPE") System.Environment.Exit(1);
         }
         private void Move(bool upMove) {
             int j = 1;
@@ -37,10 +37,6 @@ namespace PhysApplication.Menu {
             else if (upMove)  menuCategories[j - 1] = new menuObject(menuCategories[j - 1].Name, true);
             else if (!upMove) menuCategories[j + 1] = new menuObject(menuCategories[j + 1].Name, true);
         }
-        private void EnterPress() {
-            //endMainMenu = true;
-            //valMenu.CreateMenu();
-        }
         public void MenuNav() {
             string key = null;
             do {
@@ -48,7 +44,7 @@ namespace PhysApplication.Menu {
                 CreateMenu();
             } while (key.ToUpper() != "ENTER");
             valMenu.CreateMenu();
-            Console.ReadKey();
+            valMenu.MenuNav();
         }
     }
 }
