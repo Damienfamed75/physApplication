@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using PhysApplication.Objects;
 
 namespace PhysApplication.Menu {
@@ -12,7 +9,9 @@ namespace PhysApplication.Menu {
         public static List<menuObject> menuCategories = menuItems.categories;
         public void CreateMenu() {  // TODO Think about splitting to new file
             Console.Clear();
-            Console.Write("Please Select One Object:\n\n");
+            double b = 1.4661;
+            Console.Write($"Please Select One Object:\n\n");
+            
             foreach (menuObject a in menuCategories) {
                 Console.WriteLine(a.Marked?$"{a.Name} <":a.Name);
             }

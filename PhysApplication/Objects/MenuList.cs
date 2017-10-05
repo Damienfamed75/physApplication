@@ -10,13 +10,15 @@ namespace PhysApplication.Objects {
         private bool val = true;
         public MenuList(string[] args) {
             if (args == null) val = false;
-            categories.Add(new menuObject("!velocity", true));
-            categories.Add(new menuObject("!time", false));
-            categories.Add(new menuObject("!distance", false));
+            categories.Add(new menuObject("!velocity",     true));
+            categories.Add(new menuObject("!time",         false));
+            categories.Add(new menuObject("!distance",     false));
             categories.Add(new menuObject("!acceleration", false));
-            categories.Add(new menuObject("!force", false));
-            categories.Add(new menuObject("!mass", false));
-            categories.Add(new menuObject("!speed", false));
+            categories.Add(new menuObject("!force",        false));
+            categories.Add(new menuObject("!mass",         false));
+            categories.Add(new menuObject("!speed",        false));
+            categories.Add(new menuObject("!angle",        false));
+            categories.Add(new menuObject("!height",       false));
             if (val) foreach (string n in args) categories.Add(new menuObject(n, false));
         }
     }

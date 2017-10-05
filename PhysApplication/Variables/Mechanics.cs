@@ -8,7 +8,6 @@ using PhysApplication.Objects;
 namespace PhysApplication.Variables {
     class Mechanics {
         public List<menuObject> MechanicsVariables = new List<menuObject>();
-        private bool val = true;
         public Mechanics() {
             MechanicsVariables.Add(new menuObject("acceleration ------------ (a)", true));
             MechanicsVariables.Add(new menuObject("amplitude --------------- (A)", false));
