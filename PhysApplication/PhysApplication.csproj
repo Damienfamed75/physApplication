@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="Menu\KnownValueCalc.cs" />
     <Compile Include="Menu\MainMenuCalc.cs" />
+    <Compile Include="Menu\ValCollectionCalc.cs" />
+    <Compile Include="Objects\variableMenuObject.cs" />
     <Compile Include="Variables\ElectricAndMagnetism.cs" />
     <Compile Include="Variables\FluidMechanicsAndThermalPhysics.cs" />
     <Compile Include="Variables\GeometryAndTrigonometry.cs" />
