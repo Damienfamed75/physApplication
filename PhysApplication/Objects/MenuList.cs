@@ -1,4 +1,9 @@
-﻿using System;
+﻿///////////////////////////////////////
+///         PhysApplication         ///
+///        by Damien Stamates       ///
+///             Objects             ///
+///////////////////////////////////////
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
