@@ -45,10 +45,9 @@ namespace PhysApplication.Menu
             if (key == "D6") { if (ScreenNum != 6) categ = WaveList.WavesAndOpticsVariables; ScreenNum = 6; }                  // Ditto
         }
         private void Select() {
-            for(int i = 0; i < categ.Count(); i++) {
-                if(categ[i].Selected) {
-                    if (!categ[i].Checked) categ[i] = new variableMenuObject(categ[i].Name, true, true);
-                    else categ[i] = new variableMenuObject(categ[i].Name, true, false);
+            for(int i = 0; i < categ.Count(); i++) { // For every item in this list
+                if(categ[i].Selected) { // If that item is selected
+                    categ[i] = new variableMenuObject(categ[i].Name, true, !categ[i].Checked); // toggle checked status
                 }
             }
         }
@@ -57,7 +56,7 @@ namespace PhysApplication.Menu
             for (int i = 0; i < categ.Count(); i++) {
                 if (categ[i].Selected) {
                     j = i;
-                    categ[i] = new variableMenuObject(categ[i].Name, false, categ[i].Checked);
+                    categ[i] = new variableMenuObject(categ[i].Name, false, categ[i].Checked); // Deselects current selection.
                 }
             }
             if (j == 0 && upMove) categ[categ.Count() - 1] = new variableMenuObject(categ[categ.Count() - 1].Name, true, categ[categ.Count() - 1].Checked);

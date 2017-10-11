@@ -16,11 +16,9 @@ namespace PhysApplication.Menu {
         public static bool endMainMenu = false;
         public void CreateMenu() {  // TODO Think about splitting to new file
             Console.Clear();
-            double b = 1.4661;
             Console.Write($"Please Select One Object:\n\n");
-            
             foreach (menuObject a in menuCategories) {
-                Console.WriteLine(a.Marked?$"{a.Name} <":a.Name);
+                Console.WriteLine(a.Marked?$"{a.Name} <":a.Name); // Displays list
             }
         }
         private void KeyAnalyze(string key) {
@@ -34,7 +32,7 @@ namespace PhysApplication.Menu {
             for(int i = 0; i < menuCategories.Count(); i++) {
                 if (menuItems.categories[i].Marked) {
                     j = i;
-                    menuCategories[i] = new menuObject(menuCategories[i].Name, false);
+                    menuCategories[i] = new menuObject(menuCategories[i].Name, false); // Deselects current selection.
                 }
             }
             if (j == 0 && upMove) menuCategories[menuCategories.Count() - 1] = new menuObject(menuCategories[menuCategories.Count() - 1].Name, true);
